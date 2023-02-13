@@ -1,0 +1,192 @@
+.footer {
+    background-color: #833556;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: #fff;
+}
+
+.footer-name p {
+        color: #fff;
+    }
+
+.copyright {
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.address h3 {
+    margin: 2rem 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.address p {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    text-decoration: none;
+    color: #868c98;
+}
+
+.email, .website, .location-info, .phone-no {
+    display: flex;
+    align-items: center;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+}
+
+.explore-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.explore a {
+    margin-bottom: 1rem;
+    width: 100%;
+    text-decoration: none;
+    color: #868c98;
+    font-size: 1.2rem;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    margin: 1rem 0;
+}
+
+.newsletter-title {
+    padding: 1rem;
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+
+.newsletter-title p {
+    color: #fff;
+}
+
+.newsletter input {
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 90%;
+    border: 1px solid #ddd;
+}
+
+.newsletter-btn {
+    width: 90%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #fff;
+    background-color: #4CAF50;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.newsletter-btn:hover {
+    background-color: #fff;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+}
+
+.footer-social-media {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .copyright {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .details {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 1rem;
+        gap: 5%;
+    }
+
+    .footer-name {
+        width: 30%;
+    }
+
+    .address {
+        width: 40%;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
+    }
+
+    .address h3 {
+        margin: 0 0 1rem 0;
+    }
+
+    .address p {
+        text-align: start;
+        margin-bottom: 1rem;
+    }
+
+    .email, .website {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .explore {
+        width: 30%;
+        align-items: flex-start;
+    }
+
+    .explore-title {
+        margin-bottom: 1rem;
+    }
+
+    .explore a {
+        text-align: start;
+        width: auto;
+        padding: 0 1rem 0 0;
+    }
+
+    .newsletter {
+        width: 40%;
+    }
+}
