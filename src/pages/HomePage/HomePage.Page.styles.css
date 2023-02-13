@@ -1,0 +1,256 @@
+.home-page {
+    width: 100%;
+}
+
+.landing {
+    position: relative;
+    width: 100%;
+}
+
+.landing-image-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.landing-image-container::after {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.landing-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.donations-cta {
+    text-decoration: none;
+    padding: 0.7rem 1.4rem;
+    border: none;
+    background-color: #833556;;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.donations-cta:hover {
+    background-color: #fff;
+    color: #833556;;
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.about-cta {
+    color: #833556;;
+}
+
+.landing-text {
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 1rem;
+    right: 1rem;
+    z-index: 3;
+}
+
+.landing-major {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.highlight {
+    color: #833556;;
+}
+
+.welcome {
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3%;
+}
+
+.welcome-header, .more-info-header {
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: #072366;
+}
+
+.welcome-image-container {
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.column-two {
+    margin-bottom: 2rem;
+}
+
+.welcome-title {
+    color: #4CAF50;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.welcome-info-one {
+    text-align: justify;
+    margin: 1rem 0;
+    color: #072366;
+}
+.welcome-info {
+    text-align: justify;
+    margin: 1rem 0 2rem 0;
+    color: #072366;
+}
+
+.more-info {
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3%;
+}
+
+.more-info-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.conclusion {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.article-img-container {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.article-img-container img {
+    width: 100%;
+    height: auto;
+}
+
+
+.article p {
+    margin-bottom: 1rem;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .landing-text {
+        top: 35%;
+        font-size: 2rem;
+    }
+
+    .landing-text {
+        left: 2rem;
+    }
+
+    .landing-major {
+        width: 80%;
+        font-size: 4.625rem;
+    }
+
+    .carousel-cta {
+        position: absolute;
+        bottom: 20%;
+        left: 20%;
+        padding: 1rem;
+        transform: translate(-50%, -50%);
+    } 
+
+    .prev-container {
+        top: 40%;
+        left: 1rem;
+    }
+
+    .next-container {
+        top: 40%;
+        right: 1rem;
+    }
+
+    .welcome {
+        padding: 2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .welcome-header {
+        font-size: 2.75rem;
+        margin-bottom: 2rem;
+    }
+
+    .welcome-content {
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .welcome-image-container {
+        width: 50%;
+    }
+
+    .column-two {
+        width: 50%;
+    }
+
+    .welcome-info {
+        margin: 1rem 0;
+    }
+
+    .more-info-header {
+        font-size: 2.75rem;
+        margin-bottom: 2rem;
+    }
+
+    .more-info {
+        padding: 2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .more-info-content {
+        flex-direction: row;
+        gap: 3%;
+    }
+
+    .conclusion {
+        flex-direction: column;
+        padding: 0.5rem 2rem;
+        gap: 2%;
+    }
+
+    .article {
+        flex: 1;
+        flex-direction: row;
+        align-items: center;
+        gap: 2%;
+    }
+
+    .article-img-container {
+        width: 90%;
+    }
+
+}
