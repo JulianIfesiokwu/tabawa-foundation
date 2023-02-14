@@ -25,11 +25,11 @@ const HeaderAndNavigation = () => {
             </div>
             <div className={menu ? "nav-links show" : "nav-links"}>
                 <NavLink to="/" onClick={() => showMenu(!menu)}>Home</NavLink>
-                <NavLink to="/about" onClick={() => showMenu(!menu)}>Who We are?</NavLink>
-                <NavLink to="/contact-us" onClick={() => showMenu(!menu)}>Contact Us</NavLink>
+                <NavLink to="/about" onClick={() => showMenu(!menu)}>About</NavLink>
+                <NavLink to="/contact-us" onClick={() => showMenu(!menu)}>Contact</NavLink>
                 <NavLink to="/gallery" onClick={() => showMenu(!menu)}>Gallery</NavLink>
                 <NavLink to="/volunteer" onClick={() => showMenu(!menu)}>Volunteer</NavLink>
-                <NavLink to="/donate" onClick={() => showMenu(!menu)}>Donations</NavLink>
+                <NavLink to="/donate" onClick={() => showMenu(!menu)}>Donate</NavLink>
             </div>
         </div>
     </header>
