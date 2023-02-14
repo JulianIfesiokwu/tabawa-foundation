@@ -6,9 +6,10 @@
     color: #fff;
 }
 
-.footer-name p {
-        color: #fff;
-    }
+.company-name {
+    color: #fff;
+    display: inline-block;
+}
 
 .copyright {
     margin-bottom: 2rem;
@@ -20,6 +21,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-bottom: 1px solid rgba(211,213,226,0.1);
+    margin-bottom: 1rem;
 }
 
 .address {
@@ -33,10 +36,10 @@
     height: 30px;
 }
 
-.address h3 {
+.address-title {
     margin: 2rem 0;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .address p {
@@ -59,7 +62,7 @@
 .explore-title {
     margin-bottom: 2rem;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .explore a {
@@ -67,31 +70,11 @@
     width: 100%;
     text-decoration: none;
     color: #868c98;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
-.newsletter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-color: #fff;
-    margin: 1rem 0;
-}
-
-.newsletter-title {
-    padding: 1rem;
-    background-color: red;
-    width: 100%;
-    text-align: center;
-    font-weight: 300;
-    letter-spacing: 1px;
-    margin-bottom: 1rem;
-}
-
-
-.newsletter-title p {
-    color: #fff;
+.form-update {
+    color: #FFF;
 }
 
 .newsletter input {
@@ -129,9 +112,14 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
+    .footer {
+        padding: 1rem 4rem;
+    }
+
     .copyright {
-        margin-left: 1rem;
-        margin-bottom: 1rem;
+        text-align: center;
+        margin-bottom: 0.5rem;
     }
 
     .details {
@@ -163,6 +151,7 @@
     .address p {
         text-align: start;
         margin-bottom: 1rem;
+        font-size: 0.8rem;
     }
 
     .email, .website {
