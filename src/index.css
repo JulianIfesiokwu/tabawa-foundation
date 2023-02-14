@@ -27,6 +27,7 @@ html {
 
 html, body {
   height: 100%;
+  background-color: #FCF2EB;
 }
 
 body {
@@ -44,10 +45,6 @@ input, button, textarea, select {
 
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
-}
-
-p {
-  color: #072366;;
 }
 
 #root, #__next {
