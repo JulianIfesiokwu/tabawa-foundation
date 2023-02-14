@@ -33,8 +33,8 @@
 .donations-cta {
     text-decoration: none;
     padding: 0.7rem 1.4rem;
-    border: none;
-    background-color: #833556;;
+    border: 2px solid #833556;
+    background-color: #833556;
     letter-spacing: 1px;
     color: #fff;
     font-size: 1.2rem;
@@ -43,10 +43,9 @@
 }
 
 .donations-cta:hover {
-    background-color: #fff;
-    color: #833556;;
-    border: 1px solid #fff;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    color: #FFF;
+    border: 2px solid #fff;
+    background-color: transparent;
 }
 
 .about-cta {
@@ -72,8 +71,7 @@
 }
 
 .welcome {
-    margin-top: 1rem;
-    padding: 1rem;
+    padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -83,7 +81,6 @@
 .welcome-header, .more-info-header {
     margin-bottom: 1rem;
     font-weight: 400;
-    color: #072366;
 }
 
 .welcome-image-container {
@@ -96,9 +93,9 @@
 }
 
 .welcome-title {
-    color: #4CAF50;
+    color: #833556;
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .welcome-info-one {
@@ -113,17 +110,35 @@
 }
 
 .more-info {
-    margin-top: 1rem;
-    padding: 1rem;
+    background-color: #833556;
+    color: #FFF;
+    padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 3%;
 }
 
-.more-info-content {
-    display: flex;
-    flex-direction: column;
+.more-info-title {
+    margin-bottom: 2rem;
+}
+
+.one-item {
+    margin-bottom: 2rem;
+}
+
+.item-img-container {
+    margin-bottom: 1rem;
+}
+
+.item-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.item-short {
+    font-weight: 300;
 }
 
 .conclusion {
@@ -188,7 +203,7 @@
     }
 
     .welcome {
-        padding: 2rem;
+        padding: 4rem;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
@@ -212,45 +227,51 @@
     }
 
     .column-two {
-        width: 50%;
+        width: 45%;
     }
 
     .welcome-info {
         margin: 1rem 0;
     }
 
-    .more-info-header {
-        font-size: 2.75rem;
-        margin-bottom: 2rem;
+    .welcome-title {
+        font-size: 3rem;
+        font-weight: 600;
+        color: #833556;
+    }
+
+    .more-info-title {
+        font-size: 3rem;
+        font-weight: 600;
+        /* font-family: 'Montserrat'; */
+        color: #FFF;
     }
 
     .more-info {
-        padding: 2rem;
+        padding: 4rem;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
     }
 
-    .more-info-content {
-        flex-direction: row;
+    .more-info-title {
+        margin-bottom: 2rem;
+    }
+
+    .info-details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
         gap: 3%;
     }
 
-    .conclusion {
-        flex-direction: column;
-        padding: 0.5rem 2rem;
-        gap: 2%;
+    .item-img-container img{
+        margin: 0 auto;
     }
 
-    .article {
-        flex: 1;
-        flex-direction: row;
-        align-items: center;
-        gap: 2%;
-    }
-
-    .article-img-container {
-        width: 90%;
+    .donate-section {
+        padding: 4rem;
     }
 
 }
