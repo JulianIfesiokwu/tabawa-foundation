@@ -12,8 +12,8 @@ const AboutPage = () => {
             <img src={aboutImage} alt="" className='landing-image' />
           </div>
           <div className="landing-text">
-            <h1 className='landing-major'><span className='highlight'>Doing nothing</span> is not an <span className='highlight'>option.</span></h1>
-            <Link to="/donate" className='donations-cta'>Donate to a Cause</Link>
+            <h1 className='landing-major'>Doing nothing is not an option</h1>
+            <Link to="/donate" className='donations-cta'>Donate</Link>
           </div>
       </div>
             <section className='about-us'>
