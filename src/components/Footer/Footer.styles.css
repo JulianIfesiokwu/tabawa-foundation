@@ -12,8 +12,9 @@
 }
 
 .copyright {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: #fff;
+    font-size: 0.8rem;
 }
 
 .details {
@@ -73,28 +74,31 @@
     font-size: 1rem;
 }
 
-.form-update {
+.explore a.active {
     color: #FFF;
 }
 
+.form-update {
+    color: #FFF;
+    font-size: 0.8rem;
+}
+
 .newsletter input {
-    margin: 0.5rem;
     margin-bottom: 1rem;
     padding: 0.5rem;
-    width: 90%;
-    border: 1px solid #ddd;
+    width: 100%;
 }
 
 .newsletter-btn {
-    width: 90%;
-    margin-bottom: 1rem;
+    display: block;
     padding: 0.5rem;
-    border: 1px solid #fff;
+    border: 1px solid #4CAF50;
     background-color: #4CAF50;
-    font-weight: 300;
     letter-spacing: 1px;
     color: #fff;
     cursor: pointer;
+    font-weight: 300;
+    margin-bottom: 2rem;
 }
 
 .newsletter-btn:hover {
@@ -112,10 +116,6 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
-    .footer {
-        padding: 1rem 4rem;
-    }
 
     .copyright {
         text-align: center;

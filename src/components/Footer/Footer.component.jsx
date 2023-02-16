@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <form onSubmit={(e) => handleSubmit(e)} className="newsletter">
           <p className='form-update'>Get updates about Tabawa in your inbox</p>
-          <input 
+            <input 
             type="email" 
             placeholder='Email' 
             name='subscriber-email' 
