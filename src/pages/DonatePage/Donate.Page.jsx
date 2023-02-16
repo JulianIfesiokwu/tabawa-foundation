@@ -9,7 +9,7 @@ export default function Donate() {
             <img src={donateImage} alt="" className='landing-image' />
           </div>
           <div className="landing-text">
-            <h1 className='landing-major'><span className='highlight'>Your donation</span> is others <span className='highlight'>inspiration.</span></h1>
+            <h1 className='landing-major'>Alone we can do so little, together we can do so much.</h1>
           </div>
       </div>
       <div className='why-us'>
