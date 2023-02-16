@@ -34,7 +34,7 @@
     text-decoration: none;
     padding: 0.7rem 1.4rem;
     border: none;
-    background-color: #4CAF50;
+    background-color: #B24BF3;
     letter-spacing: 1px;
     color: #fff;
     font-size: 1.2rem;
@@ -43,9 +43,9 @@
 }
 
 .landing-cta:hover {
-    color: #4CAF50;
+    color: #B24BF3;
     background-color: #fff;
-    border: 1px solid #4CAF50;
+    border: 1px solid #B24BF3;
 }
 
 .why-us {
@@ -53,7 +53,7 @@
 }
 
 .why-us-title {
-    color: #4CAF50;
+    color: #833556;
     margin-bottom: 1rem;
 }
 
@@ -62,7 +62,6 @@
 }
 .volunteer-list li{
     margin-bottom: 1rem;
-    color: #072366;
 }
 
 .volunteer-form {
@@ -70,7 +69,7 @@
 }
 
 .volunteer-form-title {
-    color: #4CAF50;
+    color: #833556;
     margin-bottom: 1rem;
 }
 
@@ -80,7 +79,6 @@
 
 .personal-information, .card-information {
     padding: 1rem 0;
-    border-bottom: 1px solid #4CAF50;
 }
 
 .personal-information-title {
@@ -92,13 +90,11 @@
     width: 100%;
     margin-bottom: 1rem;
     padding: 0.5rem;
-    border-radius: 0.5rem;
     border: 1px solid #ddd;
 }
 
 .availability {
-    padding: 1rem 0;
-    border-bottom: 1px solid #4CAF50;    
+    padding: 1rem 0; 
 }
 
 .availability-title {
@@ -143,7 +139,6 @@
     margin: 1rem 0;
     width: 100%;
     padding: 0.5rem;
-    border-radius: 0.5rem;
 }
 
 .experiences-title {
@@ -156,12 +151,17 @@
     margin-bottom: 1rem;
     padding: 0.5rem;
     border: 1px solid #fff;
-    border-radius: 5px;
-    background-color: #4CAF50;
+    background-color: #833556;
     font-weight: 300;
     letter-spacing: 1px;
     color: #fff;
+}
+
+.confirm-application:hover {
     cursor: pointer;
+    color: #833556;
+    border: 1px solid #833556;
+    background-color: #fff;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

@@ -13,7 +13,7 @@ export default function Volunteer() {
             <img src={volunteerImage} alt="" className='landing-image' />
           </div>
           <div className="landing-text">
-            <h1 className='landing-major'>Work with <span className='highlight'>Us</span></h1>
+            <h1 className='landing-major'>We cannot live only for ourselves.</h1>
             <a href="#volunteer-form" className='landing-cta'>Get started</a>
           </div>
       </div>
