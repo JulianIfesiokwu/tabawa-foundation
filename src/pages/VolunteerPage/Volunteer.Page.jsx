@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import volunteerImage from "../../assets/volunteerpage_landing.jpg";
+import volunteerImage from "../../assets/volunteer (2).jpg";
 import { VolunteerContext } from '../../context/VolunteerContext';
 import './VolunteerPage.styles.css';
 
