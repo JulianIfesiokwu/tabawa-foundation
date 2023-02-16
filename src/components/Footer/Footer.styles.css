@@ -91,9 +91,9 @@
 
 .newsletter-btn {
     display: block;
-    padding: 0.5rem;
-    border: 1px solid #4CAF50;
-    background-color: #4CAF50;
+    padding: 0.5rem 1rem;
+    border: 1px solid #B24BF3;
+    background-color: #B24BF3;
     letter-spacing: 1px;
     color: #fff;
     cursor: pointer;
@@ -103,8 +103,8 @@
 
 .newsletter-btn:hover {
     background-color: #fff;
-    color: #4CAF50;
-    border: 1px solid #4CAF50;
+    color:#B24BF3;
+    border: 1px solid #B24BF3;
 }
 
 .footer-social-media {
