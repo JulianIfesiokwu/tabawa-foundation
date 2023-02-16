@@ -2,9 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import carouselImage1 from "../../assets/homepage_landing.jpg";
 import cardImage3 from "../../assets/Gallery Images/tabawa (13).jpeg";
+import volunteerImage from "../../assets/volunteer (2).jpg"
 import educationIcon from "../../assets/education.svg";
 import foodIcon from "../../assets/food.svg";
-import medicineIcon from "../../assets/medicine.svg";
+import fundIcon from "../../assets/fund.svg";
+import empowerIcon from "../../assets/empower woman.svg";
 import "./HomePage.Page.styles.css";
 
 const HomePage = () => {
@@ -41,9 +43,23 @@ const HomePage = () => {
         <div className='info-details'>
           <div className='one-item'>
             <div className='item-img-container'>
+              <img src={empowerIcon} alt='education-icon' />
+            </div>
+            <h3 className='item-title'>Empower</h3>
+            <p className='item-short'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum pariatur nisi asperiores esse accusamus voluptatibus, praesentium velit iste voluptatum placeat.</p>
+          </div>
+          <div className='one-item'>
+            <div className='item-img-container'>
+              <img src={fundIcon} alt='education-icon' />
+            </div>
+            <h3 className='item-title'>Fund</h3>
+            <p className='item-short'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum pariatur nisi asperiores esse accusamus voluptatibus, praesentium velit iste voluptatum placeat.</p>
+          </div>
+          <div className='one-item'>
+            <div className='item-img-container'>
               <img src={educationIcon} alt='education-icon' />
             </div>
-            <h3 className='item-title'>Education</h3>
+            <h3 className='item-title'>Educate</h3>
             <p className='item-short'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum pariatur nisi asperiores esse accusamus voluptatibus, praesentium velit iste voluptatum placeat.</p>
           </div>
           <div className='one-item'>
@@ -53,18 +69,17 @@ const HomePage = () => {
             <h3 className='item-title'>Food</h3>
             <p className='item-short'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum pariatur nisi asperiores esse accusamus voluptatibus, praesentium velit iste voluptatum placeat.</p>
           </div>
-          <div className='one-item'>
-            <div className='item-img-container'>
-              <img src={medicineIcon} alt='medicine-icon' />
-            </div>
-            <h3 className='item-title'>Medicine</h3>
-            <p className='item-short'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum pariatur nisi asperiores esse accusamus voluptatibus, praesentium velit iste voluptatum placeat.</p>
-          </div>
         </div>      
       </section>
-      <section className='donate-section'>
-        <h2>Help us by donating</h2>
-        <Link to="/donate" className='donations-cta'>Make a Donation</Link> 
+      <section className='volunteer-section'>
+        <div className='volunteer-info'>
+          <h2 className='volunteer-title'>Volunteer & change peoples lives today</h2>
+          <p className='volunteer-short'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit modi eveniet sint totam necessitatibus repellendus vitae! Nisi aspernatur dolores enim porro veniam aut veritatis, neque dignissimos quibusdam, facilis ullam voluptatibus.</p>
+          <Link to="/volunteer" className='volunteer-btn'>Volunteer</Link>
+        </div>
+        <div className='volunteeer-img-container'>
+          <img src={volunteerImage} alt="volunteer" />
+        </div>
       </section>
     </div>
   )

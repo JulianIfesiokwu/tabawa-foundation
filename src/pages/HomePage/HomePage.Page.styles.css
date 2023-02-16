@@ -141,31 +141,42 @@
     font-weight: 300;
 }
 
-.conclusion {
+
+.volunteer-section {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 3%;
+}
+
+.volunteeer-img-container {
+    margin-bottom: 2rem;
+}
+
+.volunteer-title {
+    color: #833556;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.volunteer-short {
+    margin-bottom: 1rem;
+}
+
+.volunteer-btn {
     padding: 1rem;
-    display: flex;
-    flex-direction: column;
+    margin: 1rem 0;
+    border: 2px solid #833556;
+    background-color: #833556;
+    text-decoration: none;
+    color: #FFF;
 }
 
-.article {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem;
-}
-
-.article-img-container {
-    width: 100%;
-    margin-bottom: 1rem;
-}
-
-.article-img-container img {
-    width: 100%;
-    height: auto;
-}
-
-
-.article p {
-    margin-bottom: 1rem;
+.volunteer-btn:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #833556;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -181,7 +192,6 @@
 
     .landing-major {
         width: 80%;
-        font-size: 4.625rem;
     }
 
     .carousel-cta {
@@ -203,7 +213,7 @@
     }
 
     .welcome {
-        padding: 4rem;
+        padding: 2rem;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
@@ -266,12 +276,46 @@
         gap: 3%;
     }
 
+    .one-item {
+        width: 60%;
+    }
+
     .item-img-container img{
         margin: 0 auto;
     }
 
-    .donate-section {
-        padding: 4rem;
+    .volunteer-section {
+        padding: 2rem;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
     }
 
+    .volunteer-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .volunteer-btn {
+        display: inline;
+        width: 30%;
+        text-align: center;
+    }
+
+}
+
+
+/* Medium devices (landscape tablets, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .landing-major {
+        width: 80%;
+        font-size: 4.625rem;
+    }
+
+    .volunteer-btn {
+        display: inline;
+        width: 20%;
+        text-align: center;
+    }
 }
