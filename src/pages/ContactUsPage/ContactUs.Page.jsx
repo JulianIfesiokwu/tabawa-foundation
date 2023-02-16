@@ -1,6 +1,8 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import carouselImage1 from "../../assets/homepage_landing.jpg";
 import { AiOutlineMail } from "react-icons/ai";
-import { MdPhoneAndroid, MdArrowForward } from "react-icons/md";
+import { MdPhoneAndroid } from "react-icons/md";
 import { FaHome } from "react-icons/fa";
 import './ContactUs.styles.css';
 import { ContactFormContext } from '../../context/ContactFormContext';
@@ -10,6 +12,15 @@ export const ContactUs = () => {
 
   return (
     <section className="contact-details">
+      <div className="landing">
+          <div className="landing-image-container">
+            <img src={carouselImage1} alt="" className='landing-image' />
+          </div>
+          <div className="landing-text">
+            <h1 className='landing-major'>Give a helping hand to those who need it.</h1>
+            <Link to="/donate" className='donations-cta'>Make a Donation</Link>
+          </div>
+      </div>
         <form className='contact-form' onSubmit={(e) => handleSubmit(e)}>
           <h3 className="contact-title">Get in Touch</h3>
           <textarea 
@@ -45,14 +56,14 @@ export const ContactUs = () => {
               required
               />
           </div>
-          <button className='send-message' type='submit'>Send &nbsp;<MdArrowForward size='25' /></button>
+          <button className='send-message' type='submit'>Send</button>
         </form>
         <div className="business-info">
-          <p><FaHome size='30' color='#4CAF50'/><span>21 Aguegbe Street, Amikwo, Awka, Anambra State.</span></p>
-          <p><AiOutlineMail size='30' color='#4CAF50'/>info@hungryangry.com</p>
-          <p className='phone-no'><MdPhoneAndroid size='30' color='#4CAF50'/><span>(+44) 778 4840 281</span></p>
-          <p className='phone-no'><MdPhoneAndroid size='30' color='#4CAF50'/><span>(+234) 802 3199 234</span></p>
-          <p className='phone-no'><MdPhoneAndroid size='30' color='#4CAF50'/><span>(+23) 324 1210 463</span></p>
+          <p><FaHome size="30" color="#833556" />3109-16 211th St Queens Village Jamaica NY 11429</p>
+          <p><FaHome size="30" color="#833556" />321 Rd F Close Festac Town</p>
+          <p><MdPhoneAndroid size="30" color="#833556" />+1 3473360734</p>
+          <p><MdPhoneAndroid size="30" color="#833556" />+234 8033209276</p>
+          <p><AiOutlineMail size="30" color="#833556" />info@tabawafoundation.com</p>
         </div>
     </section>
   );
