@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom'
 import { MdMenu, MdClose } from "react-icons/md";
 import Logo from "../../assets/tabawa_logo.png";
+// import { AiTwotoneHeart } from "react-icons/ai";
 import './Header.styles.css';
 
 const HeaderAndNavigation = () => {
